@@ -20,5 +20,5 @@ big2() {
    
    //return 0;
    //xyz	
-   /abc	
+   //abc	
 }
