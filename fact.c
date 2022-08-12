@@ -12,6 +12,7 @@ fact() {
         for (i = 1; i <= n; ++i) {
             fact *= i;
         }
+        //hooktest
         printf("Factorial of %d = %llu", n, fact);
     }
 
