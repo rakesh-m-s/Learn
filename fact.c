@@ -7,12 +7,12 @@ fact() {
 
     // shows error if the user enters a negative integer
     if (n < 0)
+        //hooktest
         printf("Error! Factorial of a negative number doesn't exist.");
     else {
         for (i = 1; i <= n; ++i) {
             fact *= i;
         }
-        //hooktest
         printf("Factorial of %d = %llu", n, fact);
     }
 
